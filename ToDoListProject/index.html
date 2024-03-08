@@ -1,17 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>To-Do List</title>
-	<link rel="stylesheet" href="style.css">
+<!DOCTYPE html> <!-- Defines the document type and version of HTML being used -->
+<html> <!-- The root element of the HTML document -->
+<head> <!-- Contains meta-information about the HTML document -->
+	<title>To-Do List</title> <!-- Specifies the title of the web page (shown in the browser tab) -->
+	<link rel="stylesheet" href="style.css"> <!-- Links the HTML document to the external CSS file for styling -->
 </head>
-<body>
-	<div id="todo-app">
-    	<h1>To-Do List</h1> <!-- Display title on the page -->
-    	<input type="text" id="new-task" placeholder="Add a new task...">
-    	<button onclick="addTask()">Add Task</button>
-    	<ul id="task-list"></ul>
+<body> <!-- Contains the visible content of the HTML document -->
+	<div id="todo-app"> <!-- Main container div for the to-do list app -->
+    	<h1>To-Do List</h1> <!-- Heading displayed on the webpage -->
+    	<input type="text" id="new-task" placeholder="Add a new task..."> <!-- Input field for new tasks -->
+    	<button onclick="addTask()">Add Task</button> <!-- Button to add a new task, triggers the addTask function on click -->
+    	<ul id="task-list"></ul> <!-- Unordered list where tasks will be displayed -->
 	</div>
-	<script src="script.js"></script>
+	<script src="script.js"></script> <!-- Links the HTML document to the external JavaScript file for functionality -->
 </body>
 </html>
-
