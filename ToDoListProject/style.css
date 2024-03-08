@@ -1,16 +1,16 @@
 body {
-	font-family: Arial, sans-serif;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
+	font-family: Arial, sans-serif; /* Sets the default font for the body */
+	display: flex; /* Enables Flexbox layout, making it easier to center elements vertically and horizontally */
+	justify-content: center; /* Centers content horizontally within the body */
+	align-items: center; /* Centers content vertically within the body */
+	height: 100vh; /* Sets the height of the body to 100% of the viewport height */
 }
  
 #todo-app {
-	width: 400;
+	width: 300px; /* Sets a fixed width for the to-do list app container */
 }
  
 #task-list {
-	list-style: none;
-	padding: 1;
+	list-style: none; /* Removes default list styling (bullet points) */
+	padding: 0; /* Removes default padding from the list */
 }
