@@ -1,0 +1,16 @@
+body {
+	font-family: Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+ 
+#todo-app {
+	width: 400;
+}
+ 
+#task-list {
+	list-style: none;
+	padding: 1;
+}
